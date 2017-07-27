@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+.wrapper .show-area {
+    position: absolute;
+    height: 200px;
+    left: -250px;
+    width: 1000px;
+}
+
+.wrapper .show-area .mover {
+    float: left;
+    width: 250px;
+    height: 200px;
+}
+
+.wrapper .show-area .mover.inner1 {
+    background-color: #f00;
+}
+
+.wrapper .show-area .mover.inner2 {
+    left: 250px;
+    background-color: #0f0;
+}
+
+.wrapper .mark-area {
+    overflow: auto;
+}
+
+.wrapper .mark-area .right {}
+
+.wrapper .mark-area .left {}

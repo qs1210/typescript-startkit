@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "removeComments": true,
+        // "preserveConstEnums": true,
+        "noEmit": false,
+        // "outFile": "built",
+        "outDir": "built",
+        "sourceMap": true,
+        "target": "es5",
+        "jsx": "react",
+        "lib": ["dom", "es5", "es6"]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
